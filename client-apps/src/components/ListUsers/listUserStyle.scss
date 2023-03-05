@@ -1,0 +1,52 @@
+.list-user {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+
+    div {
+        padding: 12px;
+    }
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+table thead tr {
+    height: 60px;
+    background: #36304a;
+    color: #fff;
+}
+
+.table100-head th {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+.column1 {
+    padding-left: 40px;
+}
+
+.column5 {
+    text-align: right;
+    padding-right: 32px;
+}
+
+table td, table th {
+    text-align: left;
+}
+
+tbody tr th {
+    font-size: 16px;
+    line-height: 3.2;
+    font-weight: unset;
+}
