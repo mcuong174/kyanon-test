@@ -49,8 +49,12 @@ const ProfileUpdate = () => {
     setPhone(res.data.data[0].phone);
   };
 
+  const handleBack = () => {
+    navigate("/users");
+  }
+
   return (
-    <form onSubmit={updateUser} className="profile-form">
+    <form className="profile-form">
       <h3 className="heading">Profile</h3>
 
       <div className="form-group">
@@ -121,8 +125,8 @@ const ProfileUpdate = () => {
       </div>
 
       <div className="footer-form">
-        <button className="form-submit">Update</button>
-        <button className="form-submit">Cancel</button>
+        <button onClick={updateUser} type="submit" className="form-submit">Update</button>
+        <button onClick={handleBack} className="form-submit">Cancel</button>
       </div>
     </form>
   );
