@@ -119,7 +119,13 @@ Update Profile Page
 
 ## Database
 
+Account
 
+![App Screenshot](https://raw.githubusercontent.com/mcuong174/kyanon-test/main/Diagram/account.PNG)
+
+Users
+
+![App Screenshot](https://raw.githubusercontent.com/mcuong174/kyanon-test/main/Diagram/users.PNG)
 
 
 ## Feedback
